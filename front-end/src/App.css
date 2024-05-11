@@ -1,0 +1,192 @@
+.Nav li{
+  display: inline-block;
+  padding: 10px;
+}
+.Nav li a{
+  color: rgb(2, 19, 19);
+  padding: 5px;
+  text-decoration: none;
+}
+.Nav{
+  padding: 5px;
+  margin: 0;
+  background-color: skyblue;
+}
+.h{
+  color: blue;
+}
+.p{
+  color: rgb(11, 185, 185);
+}
+.jpg{
+  display: flex;
+  padding-right: 10px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.jpg :hover{
+  transform: scale(105%);
+}
+.About{
+  display: flex;justify-content: space-evenly;list-style:none;
+  padding-top: 30px;
+  padding-left: 10px;
+  
+}
+.Abouts{
+ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRChwGu8fDpVZ3pIMnL_JNJOGbGkfUWy4wugg&usqp=CAU);
+   background-repeat: no-repeat, repeat;
+   background-size: 1400px;
+  height: 600px;
+}
+.aks{
+ 
+  background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size:  1400px; 
+ height: 561px;
+}
+.carbookings{
+ padding-left: 500px;
+ padding-top: 100px;
+  
+}
+.register{
+  color: #61dafb;
+  padding-left: 90px;
+}
+.sign{
+  color: #61dafb;
+  padding-left: 120px;
+}
+.bookingbutton{
+  margin-left: 90px;
+ height: 35px;
+ width: 150px;
+ color: blue;
+ background-color: aqua;
+}
+.booking{
+  display: flex;list-style:none;
+  padding: 10px;
+  
+}
+.booki{
+  display:flex;
+}
+.book{
+  display: flex;
+  padding-left: 30px;
+}
+.src{
+  padding-left: 10px;
+}
+
+.Footer{
+
+ 
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+position:fixed;  
+}
+.Login{
+  padding-top: 100px;
+  margin-left: 500px;
+}
+.Loginn{
+  background-image: url("https://c0.wallpaperflare.com/preview/76/943/601/4k-wallpaper-architecture-background-black.jpg");
+  background-repeat: no-repeat;
+  height: 561px;
+
+background-size: 100%;
+}
+.signupp{
+  background-image: url("https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1409.jpg?w=360");
+  background-repeat: no-repeat;
+  height: 561px;
+
+background-size: 100%;
+}
+.signup{
+  
+  margin-left: 500px;
+  padding-top: 100px;
+}
+.inputBox{
+  display: block;
+  margin:  25px;
+  padding: 7px;
+  width : 300px;
+  border: 1px solid skyblue;
+  
+}
+.slide{
+  transition: 0.1s;
+}
+
+/* .welcome{
+  color: aqua;
+  font-family: Sofia, cursive;
+  text-shadow:6px 7px 0 #660228;
+  padding-top: 200px;
+  text-align: center;
+} */
+.car{
+  overflow: hidden;
+}
+.car :hover{
+  transform: scale(101%);
+}
+.car img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.logo{
+  width: 45px;
+  float: left;
+  border-radius: 30%;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.nav-right{
+  text-align: right;
+}
+.appButton{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: #61dafb;
+  border: 1px solid;
+  cursor: pointer;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
